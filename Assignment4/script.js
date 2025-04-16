@@ -1,16 +1,5 @@
-const simple = ["Joy", "Abigail", "Ken"];
-console.log(simple);
-console.log(simple.length);
-
-for (let a = 0; a < simple.length; a++) {
-
-    console.log(simple);
-    
-}
-
-
-
-
+ 
+ //Assignment 4: Conditional Statements and Functions
 
 // 1. Function that checks if student passed based on JAMB-style scoring
 
@@ -34,8 +23,7 @@ function checkVotingEligibility(age) {
   }
     console.log(checkVotingEligibility(20));
     
-    
-    // 3. Function that grades based on score
+ // 3. Function that grades based on score
 function gradeStudent(name, score) {
   if (score >= 90) {
     return "Excellent";
@@ -136,7 +124,7 @@ function canSignUp(user) {
   const findLarger = (num1, num2) => num1 > num2 ? num1 : num2;
 
 
-  console.log(findLarger(10, 20)); // 20
-  console.log(findLarger(30, 25)); // 30
-  console.log(findLarger(15, 15)); // 15
-  console.log(findLarger(5, 10)); // 10
+  console.log(findLarger(10, 20)); 
+  console.log(findLarger(30, 25)); 
+  console.log(findLarger(15, 15)); 
+  console.log(findLarger(5, 10)); 
